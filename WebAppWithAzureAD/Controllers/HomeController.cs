@@ -15,10 +15,6 @@ namespace WebAppWithAzureAD.Controllers
     {
         public IActionResult Index()
         {
-            //var claims = HttpContext.User.Claims;
-
-            //var rolesClaim = HttpContext.User.Claims.Where(c => c.Type == ClaimsIdentity.DefaultNameClaimType).FirstOrDefault();
-
             return View();
         }
 

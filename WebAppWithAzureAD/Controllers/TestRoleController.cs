@@ -17,13 +17,6 @@ namespace WebAppWithAzureAD.Controllers
         {
             ViewBag.WhoYouAre = "You are a test";
             return View("Index");
-        }
-
-        [Authorize(Policy = "CrossZone")]
-        public IActionResult CrossZone()
-        {
-            ViewBag.WhoYouAre = "You are in CrossZone";
-            return View("Index");
-        }
+        }        
     }
 }
